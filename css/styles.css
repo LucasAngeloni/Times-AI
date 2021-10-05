@@ -145,7 +145,7 @@ form .text{
     margin-top: 0.5em;
     margin-bottom: 1em;
     background-color: lightgray;
-    border: #050505 0 0 0 1px solid;
+    border: #050505 2px solid;
 }
 form .btn{
     background-color: green;
