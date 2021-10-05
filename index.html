@@ -1,6 +1,8 @@
 <!DOCTYPE html>
     <head>
+        <meta content="utf-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Times AI - Welcome
         </title>
@@ -26,18 +28,18 @@
                 </div>
             </header>
             <div class="flex-container">
-                <section id="main-notice">
-                    <div class="flex-main-notice">
-                        <h2>
-                            YouTube bloquea todas las cuentas antivacunas
-                        </h2>
-                        <p>
-                            YouTube, subsidiaria de Google, ha decidido prohibir todas las cuentas antivacunas, incluidas algunas muy populares.
-                        </p>
-                    </div>
-                </section>
-                <section id="notices">
-                    <div class="flex-notices">
+                <div class="all-notices">
+                    <section id="main-notice">
+                        <div class="flex-main-notice">
+                            <h2>
+                                YouTube bloquea todas las cuentas antivacunas
+                            </h2>
+                            <p>
+                                YouTube, subsidiaria de Google, ha decidido prohibir todas las cuentas antivacunas, incluidas algunas muy populares.
+                            </p>
+                        </div>
+                    </section>
+                    <section id="notices">
                         <div class="notice">
                             <figure>
                                 <img src="imgs/windows.jpg" alt="">
@@ -49,7 +51,7 @@
                                 La compañía tiene todo listo para que los usuarios de Windows 10 puedan renovar sus equipos con esta nueva versión; 
                                 el proceso de habilitará de forma paulatina por regiones
                             </p>
-                            <div>
+                            <div class="more-info">
                                 Oct 03, 2021 | Tecnology
                             </div>
                         </div>
@@ -64,7 +66,7 @@
                                 El Departamento del Tesoro castiga a plataforma de criptomonedas por facilitar transacciones con dinero obtenido 
                                 ilegalmente mediante ransomware.
                             </p>
-                            <div>
+                            <div class="more-info">
                                 Sep 22, 2021 | Economy
                             </div>
                         </div>
@@ -79,7 +81,7 @@
                                 Tras los ataques del fin de semana, la gobernadora Arabela Carreras se comunicó con el ministro de Seguridad, 
                                 Aníbal Fernández, y pidió la presencia de Fuerzas Federales.
                             </p>
-                            <div>
+                            <div class="more-info">
                                 Oct 04, 2021 | Society
                             </div>
                         </div>
@@ -93,7 +95,7 @@
                             <p>
                                 El número 15 del mundo superó en tres sets al sudafricano Lloyd Harris sobre el cemento californiano
                             </p>
-                            <div>
+                            <div class="more-info">
                                 Sep 30, 2021 | Sports
                             </div>
                         </div>
@@ -108,14 +110,13 @@
                                 El japonés Haruki Murakami, las canadienses Margaret Atwood y Anne Carson, y el keniata Ngg wa Thiong'o 
                                 figuran entre los favoritos. Lo que hay que saber.
                             </p>
-                            <div>
+                            <div class="more-info">
                                 Oct 03, 2021 | Culture
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="more-notices">
-                    <div class="flex">
+                        </div>  
+                    </section>
+                    <h2>OTHER NOTICES</h2>
+                    <section id="more-notices">
                         <div class="other-notice">
                             <figure>
                                 <img src="imgs/ia.jpg" alt="">
@@ -148,28 +149,24 @@
                             </h4>
                             <a class="btn">
         
-                            </a>
-                        </div>
-                    </div>
-                </section>
+                            </a>   
+                    </section>
+                </div>
                 <aside>
-                    <div class="flex-aside">
-                        <form>
-                            <label id="email">
-                                Email:
-                            </label>
-                            <input type="text" for="email" placeholder="hola@gmail.com">
-                            <input type="button" value="Suscribirse">
-                        </form>
-                        <div id="advertising">
-                            <figure>
-                                <img src="imgs/dogecoin.jfif" alt="Publicidad">
-                                <figcaption>
-                                    The new cryptocoin is awesome!
-                                </figcaption>
-                            </figure>
-                        </div>
+                    <form>
+                        <label id="email">
+                            Email:
+                        </label>
+                        <input class="text" type="text" for="email" placeholder="hola@gmail.com">
+                        <input class="btn" type="submit" value="Suscribirse">
+                    </form>
+                    <div id="advertising">
+                        <img id="publicity" src="imgs/dogecoin.jfif" alt="Publicidad">
+                        <figcaption>
+                            The new cryptocoin is awesome!
+                        </figcaption>
                     </div>
+                
                 </aside>
             </div>
             
@@ -181,20 +178,20 @@
                         <p>Córdoba 5043, Rosario, Argentina</p>
                     </div>
                     <div class="footer-info">
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                        <p>4</p>
-                        <p>5</p>
-                        <p>6</p>
+                        <a href="#"><p>Sports</p></a>
+                        <a href="#"><p>Economy</p></a>
+                        <a href="#"><p>Ecology</p></a>
+                        <a href="#"><p>Tecnology</p></a>
+                        <a href="#"><p>Physics</p></a>
+                        <a href="#"><p>Lecture</p></a>
                     </div>
                     <div class="footer-info">
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                        <p>4</p>
-                        <p>5</p>
-                        <p>6</p>
+                        <a href="#"><p>Anúnciese con nosotros</p></a>
+                        <a href="#"><p>Términos y condiciones</p></a>
+                        <a href="#"><p>Política de protección de datos personales</p></a>
+                        <a href="#"><p>Normas de confidencialidad y privacidad</p></a>
+                        <a href="#"><p>Contáctenos</p></a>
+                        <a href="#"><p>Ayuda</p></a>
                     </div>
                 </div>
                 <div class="author">
