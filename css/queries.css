@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px) {
+    #list-icon{
+        display: none;
+    }
+    nav{
+        display: inline;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link{
+        margin-left: 10px;
+        list-style: none;
+        background-color: cornflowerblue;
+        border-radius: 15%;
+        padding: 0.5em;
+    }
+    .nav-link a{
+        color: aliceblue;
+    }
+  }

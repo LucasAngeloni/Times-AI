@@ -25,6 +25,10 @@ img{
     border-radius: 50%; 
 }
 
+nav{
+    display: none;
+}
+
 .flex-container{
     padding-top: 3em;
     display: flex;
@@ -35,7 +39,8 @@ img{
 .all-notices{
     display: flex;
     flex-direction: column;
-    flex: 75;
+    flex-basis: 600px;
+    flex-grow: 3;
 }
 
 #main-notice{
@@ -79,13 +84,19 @@ h2{
 .notice{
     border: gray 1px solid;
     padding: 0.5em;
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 1;
     margin: 10px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.notice a{
+    color: #000;
+}
+.notice a:hover{
+    text-decoration: underline;
 }
 .notice .more-info{
     border-top: gray 1px solid;
@@ -95,20 +106,37 @@ h2{
 .other-notice{
     border: black 1px solid;
     padding: 0.5em;
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 1;
     margin: 5px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: auto;
+}
+.other-notice figure{
+    margin: 0 0.5em 0 0;
+    width: 33%;
+    flex-shrink: 0;
+}
+.other-notice figure img{
+    height: 100%;
+}
+.btn{
+    color: #000;
+    border: #000 1px dashed;
+    padding: 0.5em;
+    align-self: flex-end;
+}
+.btn:hover{
+    background-color: aqua;
 }
 
 aside{
     padding: 1em;
     display: flex;
     flex-direction: column;
-    flex: 25;
+    flex-basis: 25%;
+    flex-grow: 1;
 }
 
 form .text{
