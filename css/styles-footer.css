@@ -1,0 +1,32 @@
+
+.flex-footer{
+    padding: 2em;
+    border-bottom: gray 1px solid;
+    background-color:gray;
+    font-size: 0.8em;
+    color: lavender;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    display: flex;
+}
+.footer-news-info{
+    flex-basis: 300px;
+    text-align: center;
+}
+.footer-info{
+    margin: 2em;
+}
+.footer-info a{
+    color: lavender;
+}
+.footer-info p{
+    padding-bottom: 0.5em;
+}
+.author{
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
