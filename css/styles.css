@@ -1,11 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
     background-color: lavender;
-}
-a{
-    text-decoration: none;
+    font-size: 18px;
 }
 img{
     width: 100%;
@@ -19,6 +14,7 @@ img{
 .flex-logo{
     display: flex;
     margin-right: auto;
+    align-items: center;
 }
 #logo{
     width: 100px;
@@ -40,7 +36,7 @@ nav{
     display: flex;
     flex-direction: column;
     flex-basis: 600px;
-    flex-grow: 3;
+    flex-grow: 4;
 }
 
 #main-notice{
@@ -111,21 +107,30 @@ h2{
     margin: 5px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: auto;
 }
 .other-notice figure{
     margin: 0 0.5em 0 0;
-    width: 33%;
+    flex-basis: 100px;
     flex-shrink: 0;
+    flex-grow: 1;
+}
+.other-notice h4{
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 .other-notice figure img{
     height: 100%;
+    max-height: 150px;
 }
 .btn{
     color: #000;
     border: #000 1px dashed;
     padding: 0.5em;
     align-self: flex-end;
+    text-align: center;
+    flex-grow: 1;
 }
 .btn:hover{
     background-color: aqua;
@@ -158,12 +163,14 @@ form .button{
 
 #advertising{
     margin-top: 50px;
-    height: 25%;
-    max-height: 500px;
+    height: 40%;
+    max-height: 600px;
+    min-width: 250px;
+    width: 90%;
+    align-self: center;
 }
 
 #publicity{
-    width: 90%;
     height: 100%;
 }
 
@@ -176,10 +183,23 @@ form .button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
-
+.info{
+    display: flex;
+}
+.footer-news-info{
+    flex-basis: 300px;
+    text-align: center;
+}
+.footer-info{
+    margin: 2em;
+}
 .footer-info a{
     color: lavender;
+}
+.footer-info p{
+    padding-bottom: 0.5em;
 }
 .author{
     padding: 1em 0 1em 0;
